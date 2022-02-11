@@ -1,0 +1,19 @@
+@media (min-width: 991.98px) {
+  #root {
+    .container {
+      .header {
+        padding-top: 2rem;
+
+        h1 {
+          font-size: 3rem;
+          letter-spacing: 0.25rem;
+        }
+
+        .add-book {
+          font-size: 1.25rem;
+          padding: 0.5rem 3rem;
+        }
+      }
+    }
+  }
+}
