@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Book from './Book';
 
 function BookList() {
   return (
-    <div className='book-list'></div>
+    <div className='book-list'>
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+    </div>
   )
 }
 

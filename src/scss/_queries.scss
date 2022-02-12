@@ -14,6 +14,15 @@
           padding: 0.5rem 3rem;
         }
       }
+
+      .book-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        .book {
+          // width: 30%;
+        }
+      }
     }
   }
 }
