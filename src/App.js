@@ -17,11 +17,15 @@ function App() {
     console.log(openModal);
   }
 
+  function formSubmit() {
+    console.log("submitted")
+  }
+
   return (
     <div className="container">
       {openModal === true ? (
         <>
-        <Modal handleModal={toggleModal}/>
+        <Modal handleModal={toggleModal} handleSubmit={formSubmit}/>
         <Header handleModal={toggleModal}/>
         <BookList />
         </>

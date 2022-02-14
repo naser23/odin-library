@@ -93,14 +93,12 @@
       border-radius: 20px;
       position: relative;
 
-      .modal-form {
-        .title-form,
-        .author-form,
-        .page-count-form {
-          display: flex;
-          flex-direction: column;
-          padding: 0.5rem 0;
-        }
+      .title-form,
+      .author-form,
+      .page-count-form {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0;
       }
 
       .close-modal {
