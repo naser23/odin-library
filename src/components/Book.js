@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import DeleteButton from './DeleteButton';
+import ReadButton from './ReadButton';
 
 function Book() {
   return (
@@ -7,8 +9,8 @@ function Book() {
       <p>Author</p>
       <p>Page Count</p>
       <div className="button-area">
-      <button>Read</button>
-      <button>Delete</button>
+      <ReadButton />
+      <DeleteButton />
       </div>
     </div>
   )

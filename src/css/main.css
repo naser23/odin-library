@@ -102,6 +102,44 @@
   padding: 0.25rem 0.5rem;
 }
 
+#root .modal-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .modal-bg .modal {
+  width: 80%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+#root .modal-bg .modal .modal-form .title-form,
+#root .modal-bg .modal .modal-form .author-form,
+#root .modal-bg .modal .modal-form .page-count-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.5rem 0;
+}
+
 @media (min-width: 991.98px) {
   #root .container .header {
     padding-top: 2rem;
@@ -120,6 +158,10 @@
     -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+  }
+  #root .container .modal-bg .modal {
+    width: 25%;
+    padding: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -19,8 +19,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
-        .book {
-          // width: 30%;
+      }
+
+      .modal-bg {
+        .modal {
+          width: 25%;
+          padding: 2rem;
         }
       }
     }
