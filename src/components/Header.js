@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+function Header( {handleModal} ) {
   return (
     <header className="header">
       <div className="explanation">
@@ -8,7 +8,7 @@ function Header() {
         <h4 className="white-text">white: not read yet</h4>
       </div>
         <h1>Book List</h1>
-        <button className="add-book">Add New Book</button>
+        <button className="add-book" onClick={handleModal}>Add New Book</button>
     </header>
   )
 }

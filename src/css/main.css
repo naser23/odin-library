@@ -125,6 +125,7 @@
   background-color: white;
   padding: 1rem;
   border-radius: 20px;
+  position: relative;
 }
 
 #root .modal-bg .modal .modal-form .title-form,
@@ -138,6 +139,24 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0.5rem 0;
+}
+
+#root .modal-bg .modal .close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (min-width: 991.98px) {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Modal() {
+function Modal( { handleModal }) {
   return (
     <div className="modal-bg">
         <div className='modal'>
@@ -18,6 +18,7 @@ function Modal() {
                     <input type="text" />
                 </div>
             </form>
+            <button className="close-modal" onClick={handleModal}>X</button>
         </div>
     </div>
   )
