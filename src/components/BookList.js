@@ -5,10 +5,7 @@ function BookList() {
   return (
     <div className='book-list'>
       <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+
     </div>
   )
 }

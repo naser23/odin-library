@@ -17,7 +17,8 @@ function App() {
     console.log(openModal);
   }
 
-  function formSubmit() {
+  function formSubmit(e) {
+    e.preventDefault();
     console.log("submitted")
   }
 

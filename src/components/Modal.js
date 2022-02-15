@@ -31,9 +31,14 @@ function Modal( { handleModal, handleSubmit }) {
   return (
     <div className="modal-bg">
         <div className='modal'>
-            <BookTitleForm />
-            <AuthorForm />
-            <PageCountForm />
+            <form className="modal-form">
+                <label htmlFor="Book-Title">Book Ttile</label>
+                <input type="text" />
+                <label htmlFor="Book-Author">Book Author</label>
+                <input type="text" />
+                <label htmlFor="page-count">Page Count</label>
+                <input type="text"/>
+            </form>
             <button className="close-modal" onClick={handleModal}>X</button>
         </div>
     </div>
