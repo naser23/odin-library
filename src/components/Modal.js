@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import BookTitleForm from './forms/BookTitleForm';
-import AuthorForm from './forms/AuthorForm';
-import PageCountForm from './forms/PageCountForm';
+
 
 function Modal( { handleModal, handleSubmit }) {
 
@@ -32,12 +30,18 @@ function Modal( { handleModal, handleSubmit }) {
     <div className="modal-bg">
         <div className='modal'>
             <form className="modal-form">
-                <label htmlFor="Book-Title">Book Ttile</label>
-                <input type="text" />
-                <label htmlFor="Book-Author">Book Author</label>
-                <input type="text" />
-                <label htmlFor="page-count">Page Count</label>
-                <input type="text"/>
+                <div className="title-form">
+                    <label htmlFor="Book-Title">Book Ttile</label>
+                    <input type="text" />
+                </div>
+                <div className="author-form">
+                    <label htmlFor="Book-Author">Book Author</label>
+                    <input type="text" />
+                </div>
+                <div className="page-count-form">
+                    <label htmlFor="page-count">Page Count</label>
+                    <input type="text"/>
+                </div>
             </form>
             <button className="close-modal" onClick={handleModal}>X</button>
         </div>

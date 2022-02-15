@@ -94,11 +94,11 @@
       position: relative;
 
       .modal-form {
-        display: flex;
-        flex-direction: column;
-
-        label,
-        input {
+        .title-form,
+        .author-form,
+        .page-count-form {
+          display: flex;
+          flex-direction: column;
           padding: 0.5rem 0;
         }
       }

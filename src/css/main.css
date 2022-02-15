@@ -128,7 +128,9 @@
   position: relative;
 }
 
-#root .modal-bg .modal .modal-form {
+#root .modal-bg .modal .modal-form .title-form,
+#root .modal-bg .modal .modal-form .author-form,
+#root .modal-bg .modal .modal-form .page-count-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,10 +138,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-#root .modal-bg .modal .modal-form label,
-#root .modal-bg .modal .modal-form input {
   padding: 0.5rem 0;
 }
 

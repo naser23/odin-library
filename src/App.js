@@ -19,7 +19,7 @@ function App() {
 
   function formSubmit(e) {
     e.preventDefault();
-    console.log("submitted")
+    console.log("submitted");
   }
 
   return (
